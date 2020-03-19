@@ -20,3 +20,9 @@ albo Python:
 ```python
 print('asdf')
 ```
+
+## a teraz troszkę multimediów
+
+![obrazek](/assets/img.jpeg)
+
+[klik](/assets/blank.pdf)
