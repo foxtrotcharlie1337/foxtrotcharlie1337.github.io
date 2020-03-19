@@ -1,0 +1,16 @@
+comments:
+  allowedFields: ["name", "email", "url", "message"]  # (*) REQUIRED
+  branch: "master"  # Text to use as the commit message or pull request title. Accepts placeholders.
+  commitMessage: "Add comments."  # (*) REQUIRED
+  filename: "entry{@timestamp}"  # The format of the generated data files. Accepted values are "json", "yaml"
+  format: "yaml"  # List of fields to be populated automatically by Staticman and included in
+  generatedFields:
+    date:
+      type: date
+      options:
+        format: "timestamp-seconds"  # Whether entries need to be appproved before they are published to the main
+  moderation: true  # Name of the site. Used in notification emails.
+  path: "_data/comments/{options.slug}"  # Names of required fields. If any of these isn't in the request or is empty,
+  requiredFields: ["name", "email", "message"]  # List of transformations to apply to any of the fields supplied. Keys are
+  transforms:
+    email: md5
