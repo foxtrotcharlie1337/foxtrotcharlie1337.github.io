@@ -23,6 +23,6 @@ print('asdf')
 
 ## a teraz troszkę multimediów
 
-![obrazek](/assets/img.jpeg)
+![obrazek](/assets/image.jpeg)
 
 [klik](/assets/blank.pdf)
